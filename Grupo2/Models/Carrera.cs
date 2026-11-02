@@ -23,6 +23,7 @@ namespace Grupo2.Models
         [Display(Name ="Facultad")]
         [Range(1, int.MaxValue, ErrorMessage = "Debe seleccionar una facultad.")]
         public int FacultadId { get; set; }
+
         public Facultad? Facultad { get; set; }
 
     }

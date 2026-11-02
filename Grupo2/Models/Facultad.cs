@@ -12,6 +12,7 @@ namespace Grupo2.Models
         [Display(Name = "Nombre de la facultad")]
         public string Nombre { get; set; } = "";
 
+
         public ICollection<Carrera> Carreras { get; set; } = new List<Carrera>();
 
     }
