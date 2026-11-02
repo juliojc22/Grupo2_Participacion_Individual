@@ -29,7 +29,7 @@ Facultad 1 ---- N Carrera
 - Integrante 2: Modelo Facultad y relación.
 - Integrante 2: Corrección del formulario y documentación.
 
-## Cómo ejecutar
+## Ejecución
 
 1. Crear el repositorio.
 2. Abrir la solución en Visual Studio.
