@@ -38,6 +38,29 @@ Facultad 1 ---- N Carrera
 5. Ejecutar el proyecto.
 6. Acceder a Facultades y Carreras desde el menú.
 
+
+## Diagrama
+
+┌─────────────────────────┐
+│        FACULTAD         │
+├─────────────────────────┤
+│ PK Id                   │
+│ Nombre                  │
+└────────────┬────────────┘
+             │
+             │ 1
+             │
+             │
+             │ N
+┌────────────▼────────────┐
+│         CARRERA         │
+├─────────────────────────┤
+│ PK Id                   │
+│ Nombre                  │
+│ DuracionSemestres       │
+│ FK FacultadId           │
+└─────────────────────────┘
+
 2. Configurar la Cadena de Conexión (Connection String)
 
 Abre el archivo `JSON.cs` ubicado en la raíz del proyecto principal y configura la cadena de conexión apuntando a tu servidor local de SQL Server:
