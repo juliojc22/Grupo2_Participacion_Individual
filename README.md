@@ -1,6 +1,6 @@
 # Grupo2 - Participación Individual
 
-# Grupo 2 - Relación Facultad y Carrera
+# Relación Facultad y Carrera
 
 ## Tema
 Implementación de una relación uno a muchos entre Facultad y Carrera
@@ -8,7 +8,7 @@ utilizando ASP.NET Core MVC, Entity Framework Core y SQL Server.
 
 ## Integrantes
 | Integrante  | Participación |
-| :--- :--- |
+| :--- | :--- |
 | **Julio Emerson Coro Pineida**   | 100% |
 | **Darla Sabrina Llano Guamani** | 100% |
 
