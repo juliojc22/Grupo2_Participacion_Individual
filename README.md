@@ -61,4 +61,4 @@ Abre el archivo `JSON.cs` ubicado en la raíz del proyecto principal y configura
 * Add-Migration InitialCreate.
 * Add-Migration ValidacionesCarrera.
 * Add-Migration AgragarFacultad.
-* Update-Database
+* Update-Database.
