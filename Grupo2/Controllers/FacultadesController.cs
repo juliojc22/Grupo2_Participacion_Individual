@@ -147,3 +147,6 @@ public class FacultadesController : Controller
         return _context.Facultad.Any(e => e.Id == id);
     }
 }
+
+
+
