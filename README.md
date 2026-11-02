@@ -31,7 +31,7 @@ Facultad 1 ---- N Carrera
 
 ## Cómo ejecutar
 
-1. Clonar el repositorio.
+1. Crear el repositorio.
 2. Abrir la solución en Visual Studio.
 3. Verificar la conexión a SQL Server Express.
 4. Ejecutar Update-Database.
@@ -44,19 +44,21 @@ Facultad 1 ---- N Carrera
 <img width="211" height="387" alt="image" src="https://github.com/user-attachments/assets/5e51cf4c-6ee2-42b6-bf32-6cff47a66d24" />
 
 
-2. Configurar la Cadena de Conexión (Connection String)
+## Configurar la Cadena de Conexión (Connection String)
 
 Abre el archivo `JSON.cs` ubicado en la raíz del proyecto principal y configura la cadena de conexión apuntando a tu servidor local de SQL Server:
 
 ```json
 {
   "ConnectionStrings": {
-    "SGEContext": "Server=localhost;Database=SGEADB;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=true"
+    "SGEContext": "Server=localhost;Database=Grupo2ADB;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=true"
   }
 }
 
 ```
-3. Pasos:
+## Pasos:
 * Install-Package System.Security.Cryptography.Pkcs
 * Add-Migration InitialCreate
+* Add-Migration ValidacionesCarrera
+* Add-Migration AgragarFacultad
 * Update-Database
