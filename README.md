@@ -41,25 +41,8 @@ Facultad 1 ---- N Carrera
 
 ## Diagrama
 
-┌─────────────────────────┐
-│        FACULTAD         │
-├─────────────────────────┤
-│ PK Id                   │
-│ Nombre                  │
-└────────────┬────────────┘
-             │
-             │ 1
-             │
-             │
-             │ N
-┌────────────▼────────────┐
-│         CARRERA         │
-├─────────────────────────┤
-│ PK Id                   │
-│ Nombre                  │
-│ DuracionSemestres       │
-│ FK FacultadId           │
-└─────────────────────────┘
+<img width="211" height="387" alt="image" src="https://github.com/user-attachments/assets/5e51cf4c-6ee2-42b6-bf32-6cff47a66d24" />
+
 
 2. Configurar la Cadena de Conexión (Connection String)
 
