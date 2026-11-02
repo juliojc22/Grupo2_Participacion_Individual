@@ -60,5 +60,5 @@ Abre el archivo `JSON.cs` ubicado en la raíz del proyecto principal y configura
 * Install-Package System.Security.Cryptography.Pkcs
 * Add-Migration InitialCreate.
 * Add-Migration ValidacionesCarrera.
-* Add-Migration AgragarFacultad
+* Add-Migration AgragarFacultad.
 * Update-Database
