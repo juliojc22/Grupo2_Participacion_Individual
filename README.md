@@ -1,8 +1,8 @@
 # Grupo2 - Participación Individual
 
-# Relación Facultad y Carrera
+# Tema: Relación Facultad y Carrera
 
-## Tema
+
 Implementación de una relación uno a muchos entre Facultad y Carrera
 utilizando:
 * [.NET SDK](https://dotnet.microsoft.com/) (Versión 10.0.402).
