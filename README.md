@@ -25,9 +25,9 @@ Facultad 1 ---- N Carrera
 
 ## Aportes
 - Integrante 1: Modelo Carrera y CRUD inicial.
-- Integrante 2: Validaciones y migración.
-- Integrante 3: Modelo Facultad y relación.
-- Integrante 4: Corrección del formulario y documentación.
+- Integrante 1: Validaciones y migración.
+- Integrante 2: Modelo Facultad y relación.
+- Integrante 2: Corrección del formulario y documentación.
 
 ## Cómo ejecutar
 
