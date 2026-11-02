@@ -38,38 +38,6 @@ Facultad 1 ---- N Carrera
 5. Ejecutar el proyecto.
 6. Acceder a Facultades y Carreras desde el menú.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-Un sistema web desarrollado para administrar y gestionar los procesos académicos, en una institución educativa.
-
----
-
-  Integrantes y Entidades Desarrolladas
-
-
-
-
-  Pasos para Ejecutar el Proyecto
-
-Sigue estos pasos para configurar el entorno local, aplicar las migraciones de la base de datos y ejecutar la aplicación.
-
-1. Requisitos Previos.
-
-
-
----
-
 2. Configurar la Cadena de Conexión (Connection String)
 
 Abre el archivo `JSON.cs` ubicado en la raíz del proyecto principal y configura la cadena de conexión apuntando a tu servidor local de SQL Server:
