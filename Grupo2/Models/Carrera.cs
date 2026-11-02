@@ -5,6 +5,9 @@ namespace Grupo2.Models
     public class Carrera
     {
 
+
+
+        
         public int Id { get; set; }
 
         [Required(ErrorMessage = "El nombre de la carrera es obligatorio.")]
