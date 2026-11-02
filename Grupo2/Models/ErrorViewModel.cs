@@ -7,3 +7,7 @@ namespace Grupo2.Models
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
 }
+
+
+
+
